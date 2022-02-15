@@ -1,0 +1,99 @@
+:root {
+    --main-color: #1c1c1b;
+    --secondary-color: #127c6f;
+    --third-color: #95c123;
+    --forth-color: #c00d0d;
+    --font-ar: 'Neo Sans Arabic';
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/neosans-arabic/NeoSansArabic.eot');
+    src: url('../fonts/neosans-arabic/NeoSansArabic.eot?#iefix') format('embedded-opentype'), url('../fonts/neosans-arabic/NeoSansArabic.woff2') format('woff2'), url('../fonts/neosans-arabic/NeoSansArabic.woff') format('woff'), url('../fonts/neosans-arabic/NeoSansArabic.ttf') format('truetype'), url('../fonts/neosans-arabic/NeoSansArabic.svg#NeoSansArabic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/neosans-arabic/NeoSansArabic-Medium.eot');
+    src: url('../fonts/neosans-arabic/NeoSansArabic-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/neosans-arabic/NeoSansArabic-Medium.woff2') format('woff2'), url('../fonts/neosans-arabic/NeoSansArabic-Medium.woff') format('woff'), url('../fonts/neosans-arabic/NeoSansArabic-Medium.ttf') format('truetype'), url('../fonts/neosans-arabic/NeoSansArabic-Medium.svg#NeoSansArabic-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/neosans-arabic/NeoSansArabic-Bold.eot');
+    src: url('../fonts/neosans-arabic/NeoSansArabic-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/neosans-arabic/NeoSansArabic-Bold.woff2') format('woff2'), url('../fonts/neosans-arabic/NeoSansArabic-Bold.woff') format('woff'), url('../fonts/neosans-arabic/NeoSansArabic-Bold.ttf') format('truetype'), url('../fonts/neosans-arabic/NeoSansArabic-Bold.svg#NeoSansArabic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+[dir="rtl"],
+[dir="rtl"] body {
+    font-family: var(--font-ar);
+}
+
+[dir="rtl"] .header-navigation .container .logo-box {
+    float: right;
+    right: 15px;
+    left: auto;
+}
+
+[dir="rtl"] .header-navigation .container .right-side-box {
+    left: 15px;
+    right: auto;
+}
+
+[dir="rtl"] .site-header__header-one,
+[dir="rtl"] .cta-one__moc,
+[dir="rtl"] .cta-one ul li i,
+[dir="rtl"] .cta-two ul li i,
+[dir="rtl"] footer .list-unstyled li i {
+    right: 0;
+    left: auto;
+}
+
+[dir="rtl"] .banner-one__moc {
+    right: auto;
+    left: -30px;
+}
+
+[dir="rtl"] .banner-one__moc:before {
+    right: -24%;
+    left: auto;
+}
+
+[dir="rtl"] .banner-two__moc,
+[dir="rtl"] .cta-two__moc,
+[dir="rtl"] .app-shot-one .app-shot-one__carousel .owl-dots {
+    left: 0px;
+    right: auto;
+}
+
+@media (min-width: 1200px) {
+    [dir="rtl"] .footer-widget__links-wrap {
+        padding-left: 55px;
+        padding-right: 0;
+    }
+}
+
+[dir="rtl"] .cta-one ul li,
+[dir="rtl"] .cta-two ul li,
+[dir="rtl"] footer .list-unstyled li {
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+[dir="rtl"] .site-footer__social a+a {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+[dir="rtl"] .custom-file-label::after {
+    content: "تصفح";
+}
