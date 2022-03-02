@@ -710,6 +710,7 @@ a:visited {
 
 .banner-one__moc:before {
     background-image: linear-gradient(40deg, var(--third-color) 0%, var(--forth-color) 33.3%, var(--secondary-color) 66.6%, var(--main-color) 100%);
+    background-image: linear-gradient(40deg, #EAEEF1 0%, rgba(234, 238, 241, 0.5) 100%);
 }
 
 .banner-one__moc img {
@@ -745,6 +746,7 @@ a:visited {
 
 .banner-one__shape-1 {
     background-image: linear-gradient(40deg, var(--secondary-color) 0%, var(--main-color) 100%);
+    background-image: linear-gradient(40deg, #EAEEF1 0%, rgba(234, 238, 241, 0.5) 100%);
 }
 
 .banner-one__shape-2 {
@@ -763,6 +765,7 @@ a:visited {
 
 .banner-one__shape-2 {
     background-image: linear-gradient( 40deg, var(--third-color) 0%, var(--main-color) 100%);
+    background-image: linear-gradient(40deg, #EAEEF1 0%, rgba(234, 238, 241, 0.5) 100%);
 }
 
 .banner-one__shape-3 {
@@ -781,6 +784,7 @@ a:visited {
 
 .banner-one__shape-3 {
     background-image: linear-gradient(40deg, var(--third-color) 0%, var(--forth-color) 100%);
+    background-image: linear-gradient(40deg, #EAEEF1 0%, rgba(234, 238, 241, 0.5) 100%);
 }
 
 .banner-one__shape-4 {
@@ -799,6 +803,7 @@ a:visited {
 
 .banner-one__shape-4 {
     background-image: linear-gradient(40deg, var(--main-color) 0%, var(--forth-color) 100%);
+    background-image: linear-gradient(40deg, #EAEEF1 0%, rgba(234, 238, 241, 0.5) 100%);
 }
 
 @-webkit-keyframes bubbleMover {
@@ -1785,15 +1790,16 @@ a:visited {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .site-footer__social a {
-    width: 56px;
-    height: 56px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: var(--forth-color);
     text-align: center;
-    line-height: 56px;
+    line-height: 45px;
     color: #fff;
     background-size: 200% auto;
     font-size: 18px;
@@ -1811,18 +1817,26 @@ a:visited {
 
 .site-footer__social a.fa-facebook-square {
     background-image: linear-gradient(40deg, var(--forth-color) 0%, var(--secondary-color) 50%, var(--main-color) 100%);
+    background: #bf9642;
 }
 
 .site-footer__social a.fa-twitter {
     background-image: linear-gradient( 40deg, var(--secondary-color) 0%, var(--main-color) 100%);
+    background: #bf9642;
 }
 
 .site-footer__social a.fa-instagram {
     background-image: linear-gradient( 40deg, var(--main-color) 0%, var(--third-color) 100%);
+    background: #bf9642;
 }
 
 .site-footer__social a.fa-snapchat-ghost {
     background-image: linear-gradient( 40deg, var(--third-color) 0%, var(--secondary-color) 100%);
+    background: #bf9642;
+}
+
+.site-footer__social a.fa-linkedin {
+    background: #bf9642;
 }
 
 @media (min-width: 1200px) {
@@ -1978,6 +1992,7 @@ a:visited {
     padding: 15px;
     background-image: -webkit-gradient(linear, left bottom, left top, from(#ffa95c), to(#ff43c0));
     background-image: linear-gradient(40deg, var(--forth-color) 0%, var(--secondary-color) 50%, var(--main-color) 100%);
+    background: #bf9642;
     border-radius: 7px;
     z-index: 10;
 }
@@ -2094,6 +2109,7 @@ a:visited {
     padding-top: 110px;
     padding-bottom: 120px;
     background-image: linear-gradient(40deg, var(--forth-color) 0%, var(--secondary-color) 50%, var(--main-color) 100%);
+    background: #bf9642;
 }
 
 .mailchimp-one .block-title__title {
@@ -3166,6 +3182,7 @@ footer .list-unstyled li i {
     box-shadow: 0px 20px 40px 0px rgba(255, 118, 142, 0.8);
     border-radius: 5px;
     background-image: linear-gradient(40deg, var(--forth-color) 0%, var(--secondary-color) 50%, var(--main-color) 100%);
+    background: #bf9642;
     margin-left: auto;
     margin-right: auto;
     display: -webkit-box;
@@ -3185,6 +3202,7 @@ footer .list-unstyled li i {
 .service-one [class*=col-]:nth-child(1) .service-one__single:before,
 .service-one [class*=col-]:nth-child(1) .service-one__icon {
     background-mage: linear-gradient(40deg, var(--forth-color) 0%, var(--secondary-color) 50%, var(--main-color) 100%);
+    background: #bf9642;
 }
 
 .service-one [class*=col-]:nth-child(1) .service-one__icon {
@@ -3332,6 +3350,7 @@ footer .list-unstyled li i {
     width: 100%;
     height: 250px;
     background-image: linear-gradient( 40deg, var(--third-color) 0%, var(--forth-color) 33.3%, var(--secondary-color) 66.6%, var(--main-color) 100%);
+    background: #bf9642;
     font-size: 115px;
     position: static;
 }
