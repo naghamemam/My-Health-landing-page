@@ -3366,3 +3366,35 @@ footer .list-unstyled li i {
     display: inline-block;
     margin-bottom: 20px;
 }
+
+.form-check {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+[dir="rtl"] .form-check {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.form-check .form-check-input {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin-left: -30px;
+    appearance: none;
+    background-color: #fff;
+    font: inherit;
+    color: currentColor;
+    border: 1px solid #f4f4f4;
+    transform: translateY(-0.075em);
+}
+
+[dir="rtl"] .form-check .form-check-input {
+    margin-right: -30px;
+    margin-left: 0;
+}
+
+.form-check .form-check-input:checked {
+    background: linear-gradient(45deg, #be1c11, #95bf23);
+}
